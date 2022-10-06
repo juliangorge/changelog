@@ -15,7 +15,7 @@ class IndexController
         $this->config = $config;
     }
 
-    public function create(string $type, array $array){
+    public function create(array $array){
         try {
             $entity = new \Juliangorge\Changelog\Changelog();
             $entity->initialize($array);
@@ -29,11 +29,11 @@ class IndexController
         return true;
     }
 
-    public function get(string $type, int $id){
+    public function get(int $id){
 
     }
 
-    public function getBy(string $type, array $array){
+    public function getBy(array $array){
 
     }
 
