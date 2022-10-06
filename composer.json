@@ -1,0 +1,16 @@
+{
+    "name": "juliangorge/changelogs",
+    "description": "Module of Changelogs",
+    "autoload": {
+        "psr-4": {
+            "Juliangorge\\changelogs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julián",
+            "email": "juliangorge@hotmail.com"
+        }
+    ],
+    "require": {}
+}
